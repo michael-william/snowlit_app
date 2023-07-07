@@ -20,7 +20,7 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 
 st.dataframe(fruits_to_show)
 
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/' + kiwi'")
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + "kiwi")
 
 st.header("Fruityvice Fruit Advice!")
 # write your own comment -what does the next line do? 
