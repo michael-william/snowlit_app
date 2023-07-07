@@ -54,7 +54,6 @@ if st.button('Get Fruit Load List'):
   my_data_rows = get_fruit_load_list()
   st.dataframe(my_data_rows)
     
-st.dataframe(my_data_rows)
 
 fruit_add = st.text_input('What fruit would you like to add?', 'jackfruit')
 st.text('Thanks for adding ' + fruit_add)
